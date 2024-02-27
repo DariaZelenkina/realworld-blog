@@ -1,0 +1,16 @@
+$font: "Inter";
+
+html {
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgba(235, 238, 243, 1);
+    font-family: $font;
+    font-weight: 400;
+    margin: 0;
+}

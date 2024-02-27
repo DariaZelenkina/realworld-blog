@@ -1,0 +1,55 @@
+.articleCard {
+    width: 938px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .articleBody {
+    padding-left: 16px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: rgba(0, 0, 0, 0.75);
+    word-break: break-all;
+    max-inline-size: 682px;
+  }
+
+  .buttonWrap {
+    position: absolute;
+    top: 91px;
+    left: 769px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .editButton {
+    width: 65px;
+    height: 31px;
+    background: none;
+    cursor: pointer;
+    color: rgba(82, 196, 26, 1);
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(82, 196, 26, 1);
+  }
+
+  .deleteButton {
+    width: 78px;
+    height: 31px;
+    background: none;
+    cursor: pointer;
+    color: #F5222D;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #F5222D;
+  }

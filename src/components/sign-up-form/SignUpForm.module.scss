@@ -1,0 +1,129 @@
+.formWrapper {
+  width: 384px;
+  border-radius: 6px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: Roboto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-bottom: 48px;
+  padding-right: 32px;
+  gap: 12px;
+
+  .formTitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(38, 38, 38, 1);
+
+    }
+
+    input {
+      height: 40px;
+      border-radius: 4px;
+      border: 1px solid rgba(217, 217, 217, 1);
+      padding-left: 12px;
+      font-size: 16px;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        color: rgba(191, 191, 191, 1);
+      }
+    }
+    input[aria-invalid=true] {
+      border: 1.5px solid red;
+    }
+  }
+
+  .errorMsg {
+    font-size: 12px;
+    margin: 0;
+    color: red;
+    padding-top: 5px;
+  }
+
+  .confirmButton {
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid rgba(232, 232, 232, 1);
+    padding-top: 10px;
+    margin-top: 10px;
+
+    input {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      border: 1px solid rgba(24, 144, 255, 1);
+    }
+
+    input:checked {
+      background: rgba(24, 144, 255, 1) url('../../assets/check.svg') center no-repeat;
+    }
+
+    :hover {
+      cursor: pointer;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(89, 89, 89, 1);
+      line-height: 22px;
+    }
+  }
+
+  .confirmErrorMsg {
+    font-size: 12px;
+    margin: 0;
+    color: red;
+  }
+
+  .createButton {
+    border: none;
+    width: 319px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(24, 144, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font: inherit;
+    margin-top: 10px;
+  }
+
+  .goToSignIn {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(140, 140, 140, 1);
+
+    a {
+      color: rgba(24, 144, 255, 1);
+      text-decoration: none;
+    }
+  }
+
+}

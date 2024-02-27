@@ -1,0 +1,124 @@
+.formWrapper {
+    width: 938px;
+    min-height: 701px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Roboto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-bottom: 48px;
+    padding-right: 32px;
+    gap: 21px;
+  
+    .formTitle {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  
+    .formField {
+      display: flex;
+      flex-direction: column;
+  
+      span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(38, 38, 38, 1);
+  
+      }
+  
+      input, textarea {
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(217, 217, 217, 1);
+        padding-left: 12px;
+        font: inherit;
+        font-size: 16px;
+        &:focus {
+          outline: none;
+        }
+        &::placeholder {
+          color: rgba(191, 191, 191, 1);
+        }
+      }
+      [aria-invalid=true] {
+        border: 1.5px solid red;
+      }
+    }
+
+    .text {
+        min-height: 168px;
+        padding-top: 7px;
+    }
+  
+    .errorMsg {
+      font-size: 12px;
+      margin: 0;
+      color: red;
+      padding-top: 5px;
+    }
+  
+    .createButton {
+      cursor: pointer;
+      border: none;
+      width: 319px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: rgba(24, 144, 255, 1);
+      color: rgba(255, 255, 255, 1);
+      font: inherit;
+      margin-top: 10px;
+    }
+		
+		.tagsWrap {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+		}
+
+		.tagField {
+			display: flex;
+			gap: 18px;
+
+			input {
+				width: 300px;
+			}
+		}
+
+		.deleteButton {
+			width: 120px;
+			height: 40px;
+			background: none;
+			cursor: pointer;
+			color: #F5222D;
+			font-size: 16px;
+			border-radius: 4px;
+			border: 1px solid #F5222D;
+		}
+
+		.addButton {
+			width: 120px;
+			height: 40px;
+			background: none;
+			cursor: pointer;
+			color: #1890FF;
+			font-size: 16px;
+			border-radius: 4px;
+			border: 1px solid #1890FF;
+		}
+  }

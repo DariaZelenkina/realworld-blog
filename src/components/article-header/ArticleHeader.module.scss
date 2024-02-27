@@ -1,0 +1,124 @@
+.content {
+    padding-left: 16px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+    .titleWrapper {
+      display: flex;
+      gap: 10px;
+      max-width: 650px;
+    }
+  
+    .likeWrapper {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.75);
+
+      .likeImage {
+        width: 16px;
+        height: 16px;
+      }
+  
+      .likeBtn {
+        appearance: none;
+        border: none;
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        background-image: url('../../assets/Vector.svg');
+      }
+      .liked {
+        background-image: url('../../assets/path4.svg');
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(24, 144, 255, 1);
+      text-decoration: none;
+      word-break: break-all;
+    }
+  
+    .tagsWrapper {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 682px;
+  
+      span {
+        padding: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 2px;
+        color: rgba(0, 0, 0, 0.5);
+        max-inline-size: 650px;
+        word-break: break-all;
+      }
+    }
+  
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      padding-bottom: 24px;
+      max-width: 682px;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.5);
+      max-inline-size: 650px;
+      word-break: break-all;
+    }
+  }
+  
+  .authorInfo {
+    padding-top: 15px;
+    padding-right: 16px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  
+    .authorName {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.85);
+      margin: 0;
+  
+    }
+  
+    .date {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  
+    .authorImage {
+      width: 46px;
+      height: 46px;
+      border-radius: 100%;
+    }
+  }

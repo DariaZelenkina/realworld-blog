@@ -1,0 +1,107 @@
+header {
+  background-color: rgba(255, 255, 255, 1);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  text-decoration: none;
+  h6 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 147px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    color: #000000D9;
+  }
+}
+
+.buttonsWrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 22px;
+  align-items: center;
+  gap: 27px;
+}
+
+.signInBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  width: 84px;
+  height: 51px;
+}
+
+.signUpBtn {
+  width: 109px;
+  height: 51px;
+  background: none;
+  cursor: pointer;
+  color: rgba(82, 196, 26, 1);
+  font: inherit;
+  border-radius: 5px;
+  border: 1px solid rgba(82, 196, 26, 1);
+}
+
+.logOutBtn {
+  background: none;
+  border: 1px solid #000000BF;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  width: 109px;
+  height: 51px;
+  color: #000000BF;
+}
+
+.createBtn {
+  width: 112px;
+  height: 31px;
+  background: none;
+  cursor: pointer;
+  color: rgba(82, 196, 26, 1);
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(82, 196, 26, 1);
+}
+
+.authorInfo {
+  width: 140px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.authorImage {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+}
+
+.authorName {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0;
+  padding-right: 10px;
+}
